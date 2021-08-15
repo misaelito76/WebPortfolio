@@ -1,0 +1,18 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+button{
+    border: none;
+    background-color:transparent;
+    margin-top: 0.5em;
+}
+
+mat-toolbar {
+  display: flex;
+  justify-content:space-between;
+  flex-wrap: auto;
+  
+}
+.example-tooltip-red {
+  background: #cce0f5;
+}

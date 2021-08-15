@@ -17,15 +17,18 @@ import { SchoolComponent } from './school/school.component';
 import { RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
-
+import { ToolbarComponent } from './toolbar/toolbar.component';
+import { MatTooltipModule } from '@angular/material/tooltip';
+import { environment } from 'src/environments/environment';
 @NgModule({
   declarations: [
     AppComponent,
     SchoolComponent,
     HomeComponent,
     AboutComponent,
+    ToolbarComponent,
   ],
-  imports: [MatMenuModule,
+  imports: [MatMenuModule, MatTooltipModule,
     BrowserModule, CdkAccordionModule, MatGridListModule, MatDividerModule,
     AppRoutingModule, MatMenuModule, MatToolbarModule, MatIconModule, FlexLayoutModule,
     BrowserAnimationsModule, MatProgressBarModule, MatCardModule, MatSliderModule,
@@ -33,6 +36,8 @@ import { AboutComponent } from './about/about.component';
       { path: '', component: HomeComponent },
       { path: 'school', component: SchoolComponent },
       { path: 'about', component: AboutComponent },
+      { path: '', component: ToolbarComponent },
+
 
 
     ])

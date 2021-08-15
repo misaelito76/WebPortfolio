@@ -1,41 +1,6 @@
 <div class="container-fluid">
-    <mat-toolbar mat-elevation-z20 color="lightblue">
-        <mat-icon aria-hidden="false" aria-label="Example work icon">work</mat-icon>
-
-        <span style="margin-right: 60em   ;">Portfolio</span>
-        <span class="example-spacer"></span>
-
-        <a style="margin-top: 0.3em;color: black;" href="mailto:jmisael56@yahoo.com">
-            <mat-icon>alternate_email</mat-icon>
-        </a>
-
-        <button style="margin-top: 0.5rem;" mat-icon-button [matMenuTriggerFor]="menu"
-            aria-label="Example icon-button with a menu">
-            <mat-icon>more_vert</mat-icon>
-        </button>
-        <mat-menu #menu="matMenu">
-            <button mat-menu-item>
-                <a style="color: black" href="https://github.com/misaelito76">
-
-                    <mat-icon>code</mat-icon>
-                    <span>Code</span>
-                </a>
-            </button>
-            <button mat-menu-item>
-                <mat-icon>school_outline</mat-icon>
-                <span [routerLink]="['/school']">School</span>
-            </button>
-            <button mat-menu-item>
-                <mat-icon>info</mat-icon>
-                <span [routerLink]="['/about']">About</span>
-            </button>
-        </mat-menu>
-
-
-
-
-
-    </mat-toolbar>
+    <!-- outlet for the toolbar component-->
+    <toolbar></toolbar>
     <div class="row" mat-elevation-z20>
         <div class="col-sm-2">
             <mat-card class="first-card">
@@ -118,7 +83,7 @@
 
 
         </div>
-        <div class="col-2">
+        <div class="col-sm-2">
 
             <mat-card class="first-card">
 

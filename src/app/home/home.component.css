@@ -17,12 +17,7 @@ section {
 
 
 
-mat-toolbar {
-  display: flex;
-  justify-content:space-between;
-  flex-wrap: auto;
-  
-}
+
 button{
   border:none;background: none
 }
