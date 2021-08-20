@@ -20,7 +20,7 @@ align-items: center;
   flex: 1 1 auto;
 }
 h1{text-align: center;}
-mat-card-subtitle{margin-left: 2rem;}
+.sub{margin-left: 5em;}
 
 mat-toolbar {
   display: flex;

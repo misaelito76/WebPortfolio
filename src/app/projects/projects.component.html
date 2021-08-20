@@ -1,4 +1,4 @@
-<div class="allProjects">
+<div class="container">
     <mat-toolbar class="mat-elevation-z20 fixed-top">
         <button matTooltip="Back to home page" matTooltipClass="example-tooltip-red" style="margin-top: 0.5rem;" style="cursor:pointer;  border: none;
     background-color:transparent;
@@ -20,24 +20,67 @@
     </mat-toolbar>
     <br>
     <div class="row projects">
+        <div class="col-sm-12 mat-elevation-z20">
+            <mat-card style="background-color: rgb(236, 236, 250);" class="mat-elevation-z20">
+
+
+
+                <mat-card-title>
+                    <h1>My Portfolio</h1>
+                </mat-card-title>
+                <mat-card-subtitle class="sub">
+                    Framework: Angular CLI version 12.2.1.<br>
+                    Programming Language: Typescript<br>
+                    Resources: Material icons,Bootstrap and CSS<br>
+                    Hosting : Firebase<br>
+                    Version control system: <a href="https://github.com/misaelito76/SOCIAL_FRONTEND">Github</a>
+                </mat-card-subtitle>
+
+                <br>
+                <mat-card-content>
+                    <img mat-card-image src="assets/projectPic.png" alt="Photo of a Misael">
+
+                </mat-card-content>
+                <br>
+                <mat-card-title>
+                    Description :
+                </mat-card-title>
+                <mat-card-subtitle>
+                    <h2> I designed and built his Portfolio to shows my professional skills.
+                        connected to firebase and github gives you
+                        the opportunity to download the source code and test it locally.
+                        Thank you for your time
+                    </h2>
+
+                </mat-card-subtitle>
+                <mat-card-footer>
+                    <div style="text-align: center;">
+                        <button mat-raised-button class="border border-dark mat-elevation-z20 btn btn-light btn-lg"
+                            matTooltip="link to pets website" style="margin-top: 0.5rem;" type="submit"
+                            onclick="window.location.href='https://github.com/misaelito76/WebPortfolio';" style=" background-color: rgb(35, 114, 216); 
+                            color: rgb(2, 2, 2); 
+                            border-radius: 1rem;margin-bottom: 2rem;
+                            ;cursor:pointer;">Portfolio-code</button>
+                    </div>
+                </mat-card-footer>
+            </mat-card>
+        </div>
         <div class="col-sm-6 mat-elevation-z20">
             <mat-card style="background-color: rgb(236, 236, 250);" class="mat-elevation-z20">
 
-                <mat-card-header>
-                    <div class="subtitle">
 
-                        <mat-card-title>
-                            <h1>Pets</h1>
-                        </mat-card-title>
-                        <mat-card-subtitle>
-                            Framework: Angular CLI version 7.3.7.<br>
-                            Programming Language: Typescript<br>
-                            Resources: Material icons,Bootstrap and CSS<br>
-                            Hosting : Firebase<br>
-                            Version control system: <a href="https://github.com/misaelito76/SOCIAL_FRONTEND">Github</a>
-                        </mat-card-subtitle>
-                    </div>
-                </mat-card-header>
+
+                <mat-card-title>
+                    <h1>Pets</h1>
+                </mat-card-title>
+                <mat-card-subtitle>
+                    Framework: Angular CLI version 7.3.7.<br>
+                    Programming Language: Typescript<br>
+                    Resources: Material icons,Bootstrap and CSS<br>
+                    Hosting : Firebase<br>
+                    Version control system: <a href="https://github.com/misaelito76/SOCIAL_FRONTEND">Github</a>
+                </mat-card-subtitle>
+
                 <br>
                 <mat-card-content>
                     <img mat-card-image src="assets/pet1.png" alt="Photo of a Misael">
@@ -57,7 +100,8 @@
                 </mat-card-subtitle>
                 <mat-card-footer>
                     <div style="text-align: center;">
-                        <button matTooltip="link to pets website" style="margin-top: 0.5rem;" type="submit"
+                        <button mat-raised-button class="border border-dark mat-elevation-z20 btn btn-light btn-lg"
+                            matTooltip="link to pets website" style="margin-top: 0.5rem;" type="submit"
                             onclick="window.location.href='https://pets-book-be902.web.app/home';" style=" background-color: rgb(35, 114, 216); 
                             color: rgb(2, 2, 2); 
                             border-radius: 1rem;margin-bottom: 2rem;
@@ -69,22 +113,20 @@
         <div class=" mat-elevation-z20 col-sm-6">
             <mat-card style="background-color: rgb(236, 236, 250);" class="mat-elevation-z20">
 
-                <mat-card-header>
-                    <div class="subtitle">
 
-                        <mat-card-title>
-                            <h1>Netto</h1>
-                        </mat-card-title>
 
-                        <mat-card-subtitle>
-                            Framework: Angular CLI version 7.3.7.<br>
-                            Programming Language: Typescript<br>
-                            Resources: Material icons,Bootstrap and CSS<br>
-                            Hosting : Firebase<br>
-                            Version control system: N/A
-                        </mat-card-subtitle>
-                    </div>
-                </mat-card-header>
+                <mat-card-title>
+                    <h1>Netto</h1>
+                </mat-card-title>
+
+                <mat-card-subtitle>
+                    Framework: Angular CLI version 7.3.7.<br>
+                    Programming Language: Typescript<br>
+                    Resources: Material icons,Bootstrap and CSS<br>
+                    Hosting : Firebase<br>
+                    Version control system: N/A
+                </mat-card-subtitle>
+
                 <br>
                 <mat-card-content>
                     <img mat-card-image src="assets/netto1.png" alt="Photo of a Misael">
@@ -95,15 +137,17 @@
                     Description :
                 </mat-card-title>
                 <mat-card-subtitle>
-                    <h2> It's a cleaning business where house owners request in advance the company services
-                        there is a panel where the admin can make CRUD operations for updating tasks
+                    <h2> It's a cleaning business where house owners request in advance
+                        the company cleaning services.
+                        There is a panel where the admin can make CRUD operations for updating tasks
 
                     </h2>
 
                 </mat-card-subtitle>
                 <mat-card-footer>
                     <div style="text-align: center;">
-                        <button matTooltip="link to netto website" style="margin-top: 0.5rem;" type="submit"
+                        <button mat-raised-button class="border border-dark mat-elevation-z20 btn btn-light btn-lg"
+                            matTooltip="link to netto website" style="margin-top: 0.5rem;" type="submit"
                             onclick="window.location.href='https://netto-a5a4f.web.app/';" style="background-color: rgb(35, 114, 216); color: rgb(2, 2, 2); border-radius: 1rem;margin-bottom: 2rem;
     
 ;cursor:pointer;">Netto-web</button>
