@@ -1,0 +1,41 @@
+.container-fluid.projects .allProjects{
+justify-content: center;
+text-align: center;
+
+}
+.subtitle{
+margin-left: 1rem;}
+mat-card
+{    
+align-items: center;
+    margin-top:2rem;
+}
+.projects{
+ 
+  margin-top: 25px !important;
+
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+h1{text-align: center;}
+mat-card-subtitle{margin-left: 2rem;}
+
+mat-toolbar {
+  display: flex;
+  justify-content:space-between;
+  flex-wrap: auto;
+  
+}
+.example-tooltip-red {
+  background: #cce0f5;
+}
+.port{
+    margin-left: 0.5rem;
+}
+
+mat-card-title{
+text-align: center;
+
+}

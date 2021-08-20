@@ -1,19 +1,23 @@
-<div class="container-fluid">
+<div>
     <!-- outlet for the toolbar component-->
     <toolbar></toolbar>
-    <div class="row" mat-elevation-z20>
-        <div class="col-sm-2">
-            <mat-card class="first-card">
-                <mat-card-header>
-                    <mat-card-title>Misael Jimenez </mat-card-title>
-                    <mat-card-subtitle>Web & App developper</mat-card-subtitle>
-                </mat-card-header>
+    <br>
+    <div id="body" class="row  mat-elevation-z20">
+        <div class=" col-sm-2 ">
+            <mat-card class=" mat-elevation-z20">
+                <div class="centerAl2">
+                    <mat-card-header>
+                        <br>
+                        <mat-card-title>Misael Jimenez </mat-card-title>
+                        <mat-card-subtitle> Software developer</mat-card-subtitle>
+                    </mat-card-header>
+                </div>
                 <img mat-card-image src="assets/misael.jpg" alt="Photo of a Misael">
                 <mat-card-content>
                     <mat-divider></mat-divider>
                     <br>
-
-                    <h3>Technical Skills</h3>
+                    <br>
+                    <h2>Technical skills</h2>
                     <h4>
                         Javascript <span>80%</span>
                         <mat-progress-bar mode="buffer" value="80"></mat-progress-bar>
@@ -37,33 +41,47 @@
                     <mat-divider></mat-divider>
                     <br>
                     <h4>
-                        SQL <span>78%</span>
+                        Ionic <span>80%</span>
                         <mat-progress-bar mode="buffer" value="78"></mat-progress-bar>
 
                     </h4>
+                    <mat-divider></mat-divider>
+                    <br>
+                    <h4>
+                        Html <span>90%</span>
+                        <mat-progress-bar mode="buffer" value="78"></mat-progress-bar>
+
+                    </h4>
+                    <mat-divider></mat-divider>
+                    <br>
+                    <h4>
+                        Css <span>78%</span>
+                        <mat-progress-bar mode="buffer" value="78"></mat-progress-bar>
+
+                    </h4>
+                    <mat-divider></mat-divider>
 
                 </mat-card-content>
-
+                <br>
             </mat-card>
 
         </div>
-        <div id="da" class="col-sm-8">
+        <div class="col-sm-8 card  mat-elevation-z20">
+
             <mat-card class="carrousel">
                 <mat-card-content>
-                    <h1>Clean and rehusable code </h1>
-
-
+                    <h1>Hi! do you need a developer?</h1>
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
 
-                                <img class="a" src="assets/netto.png" alt="First slide">
+                                <img class="a" mat-card-image src="assets/pet1.png" alt="First slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="ab" src="assets/netto2.png" alt="Second slide">
+                                <img class="ab" mat-card-image src="assets/java.png" alt="Second slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="abc" src="assets/netto3.png" alt="Third slide">
+                                <img class="abc" mat-card-image src="assets/netto1.png" alt="Third slide">
 
                             </div>
                         </div>
@@ -83,26 +101,43 @@
 
 
         </div>
-        <div class="col-sm-2">
+        <div class="card col-sm-2 ">
 
-            <mat-card class="first-card">
+            <mat-card class=" mat-elevation-z20">
+                <br><br>
+                <mat-card-header>
+                    <mat-card-title>About me </mat-card-title>
+                    <mat-card-subtitle>Professional</mat-card-subtitle>
+                </mat-card-header>
 
-                <img mat-card-image src="assets/social.jpg" alt="Photo of a Misael">
-                <mat-divider></mat-divider>
+                <img mat-card-image src="assets/about.png" alt="Photo of a Misael">
+                <mat-card-content>
+                    <mat-divider></mat-divider>
+                    <br>
+                    <h3>
+                        " Everything started with website building platform"</h3>
+                    <h5 class="parag">
+                        Currently on pursuing a
+                        degree on Computer Programming and analysis
+                        , my previous achievement was a certificate as
+                        web & app developer course taken in <a href="https://www.montrealcollege.ca/">Montreal
+                            college</a> of Information Technology CA.
+                        <br> <br>
+                        <mat-divider></mat-divider>
+                        <br>
+                        I started as a self taught student and coding some Html and Css.
+                        Copying and pasting from google also running some programs from Github, then i bought
+                        several <a href="https://www.udemy.com/">Udemy</a> courses like Java from the begginer to expert
+                        imparted by Arkdiusz Wlodarczyk,
+                        The advanced web developer bootcamp by Colt steele, Eddie Shoppik, Tim Garcia
+                        and the Angular and Node.js courses by Mosh Hamedani at <a href="https://codewithmosh.com/">Code
+                            with Mosh</a>.
+                        <br>
+                        <br>
+                    </h5>
 
-                <mat-card-footer>
-                    <h3><b>Ionic & Angular</b></h3>
-                </mat-card-footer>
-            </mat-card>
-            <mat-card class="first-card" style="margin-top: 1.8em;">
-                <a href="https://netto-a5a4f.firebaseapp.com/">
-                    <img mat-card-image src="assets/netto.png" alt="Photo of a Misael">
-                </a>
-                <mat-divider></mat-divider>
+                </mat-card-content>
 
-                <mat-card-footer>
-                    <h3><b>Angular & Node.Js</b></h3>
-                </mat-card-footer>
             </mat-card>
 
         </div>

@@ -8,7 +8,7 @@ export interface Tile {
   rows: number;
   text: string;
 }
-
+//LOOKING FOR JOBS
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',

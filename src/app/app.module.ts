@@ -13,29 +13,28 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatDividerModule } from '@angular/material/divider';
 import { FlexLayoutModule } from '@angular/flex-layout';
-import { SchoolComponent } from './school/school.component';
 import { RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
-import { AboutComponent } from './about/about.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { environment } from 'src/environments/environment';
+import { ProjectsComponent } from './projects/projects.component';
+import { MatButtonModule } from '@angular/material/button';
+
 @NgModule({
   declarations: [
     AppComponent,
-    SchoolComponent,
     HomeComponent,
-    AboutComponent,
     ToolbarComponent,
+    ProjectsComponent,
   ],
-  imports: [MatMenuModule, MatTooltipModule,
+  imports: [MatMenuModule, MatTooltipModule, MatButtonModule, MatIconModule,
     BrowserModule, CdkAccordionModule, MatGridListModule, MatDividerModule,
     AppRoutingModule, MatMenuModule, MatToolbarModule, MatIconModule, FlexLayoutModule,
     BrowserAnimationsModule, MatProgressBarModule, MatCardModule, MatSliderModule,
     RouterModule.forRoot([
       { path: '', component: HomeComponent },
-      { path: 'school', component: SchoolComponent },
-      { path: 'about', component: AboutComponent },
+      { path: 'projects', component: ProjectsComponent },
       { path: '', component: ToolbarComponent },
 
 

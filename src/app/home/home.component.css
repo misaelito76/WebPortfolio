@@ -1,18 +1,38 @@
-.carousel-inner {
-    width: 100%;
-    height:42.4em;
-   
-}
+
 mat-card-content,mat-card-footer{
     text-align: center;
     padding-top: 1em;
-}
-mat-card-header{
-      text-align: center;
+      max-height: 250rem;
 
 }
-section {
+.centerAl2{
+  justify-content: center;
+;          flex: 1 1 auto;
+
+
+}
+.parag{
+  margin-left: 0.2rem;
+
+}
+
+
+#body{
+  margin-top: 50px !important;
+  display:flexbox;
+  overflow-y:scroll;
+    margin-bottom: 30rem;
+
+}
+mat-card{
+max-height: 150rem;}
+
+.section {
   display: table;
+}
+.carrousel{
+    flex: 1 1 auto;
+
 }
 
 

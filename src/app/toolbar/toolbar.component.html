@@ -1,5 +1,6 @@
-<mat-toolbar>
-    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+<mat-toolbar class="  mat-elevation-z20 fixed-top">
+    <button style="cursor:pointer;" mat-icon-button class="example-icon"
+        aria-label="Example icon-button with menu icon">
         <mat-icon>work</mat-icon>
     </button>
     <span>Portfolio</span>
@@ -9,26 +10,19 @@
         <a style="margin-top: 0.3em;color: black;" href="mailto:jmisael56@yahoo.com">
             <mat-icon>alternate_email</mat-icon>
         </a> </button>
-    <button matTooltip="More information" matTooltipClass="example-tooltip-red" style="margin-top: 0.5rem;"
+    <button matTooltip="More information" matTooltipClass="example-tooltip-red" style="margin-bottom: 0.2rem;"
         mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
-        <mat-icon>more_vert</mat-icon>
+        <mat-icon style="cursor:pointer;">more_vert</mat-icon>
     </button>
     <mat-menu #menu="matMenu">
         <button mat-menu-item>
-            <a style="color: black" href="https://github.com/misaelito76">
 
-                <mat-icon>code</mat-icon>
-                <span>Code</span>
-            </a>
+            <mat-icon>code</mat-icon>
+            <span [routerLink]="['/projects']">Projects</span>
+
         </button>
-        <button mat-menu-item>
-            <mat-icon>school_outline</mat-icon>
-            <span [routerLink]="['/school']">School</span>
-        </button>
-        <button mat-menu-item>
-            <mat-icon>info</mat-icon>
-            <span [routerLink]="['/about']">About</span>
-        </button>
+
+
     </mat-menu>
 
 </mat-toolbar>

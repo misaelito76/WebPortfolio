@@ -1,0 +1,8 @@
+const firebaseConfig = {
+  apiKey: "AIzaSyAzEqMKtInGRF_MY0kr9tqzS5DoWGByZKM",
+  authDomain: "webportfolio-e2719.firebaseapp.com",
+  projectId: "webportfolio-e2719",
+  storageBucket: "webportfolio-e2719.appspot.com",
+  messagingSenderId: "335773948209",
+  appId: "1:335773948209:web:54b6ef3725b56743fa3810"
+};
